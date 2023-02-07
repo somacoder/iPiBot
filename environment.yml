@@ -1,0 +1,12 @@
+name: iPiBot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - opencv-python
+    - numpy
+    - setuptools
+    - scipy
+    - pillow
